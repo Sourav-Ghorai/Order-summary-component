@@ -1,0 +1,93 @@
+body{
+  background: url("../images/pattern-background-desktop.svg") no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+.title-img{
+  width:100%;
+  border-radius: 13px 13px 0 0;
+}
+.block{
+  height:500px;
+  width:330px;
+  margin:75px auto 15px auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 13px;
+  text-align: center;
+}
+.Title{
+  font-weight: bolder;
+  font-size: 20px;
+  color: hsl(223, 47%, 23%);
+}
+.description{
+  font-size: 13px;
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.container1{
+  position: relative;
+  margin:auto;
+  height:65px;
+  width:260px;
+  border-radius: 10px;
+  background-color: #FEEEFE;
+}
+.music-icon{
+  position: absolute;
+  height: 40px;
+  width:40px;
+  top:14px;
+  left:20px;
+}
+p{
+  font-size: 13px;
+}
+.features1{
+  position: absolute;
+  top:2px;
+  left:70px;
+  color: hsl(223, 47%, 23%);
+  font-weight: bolder;
+}
+.features2{
+  position: absolute;
+  top:22px;
+  left:70px;
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+}
+.change{
+  position: absolute;
+  right: 10px;
+  top: 24px;
+  font-size:12px;
+  font-weight: bolder;
+  color: hsl(245, 75%, 52%);
+}
+.container2{
+  margin:27px auto;
+  height:35px;
+  width: 260px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+}
+.container2:hover{
+  background-color: #9BA3EB;
+}
+.pay{
+  color:hsl(225, 100%, 98%);
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.cancel{
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  text-decoration: none;
+}
+.cancel:hover{
+  color: #9BA3EB;
+}
